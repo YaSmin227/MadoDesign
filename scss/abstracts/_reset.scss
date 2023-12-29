@@ -1,0 +1,29 @@
+body{
+    font-family: 'DM Sans',sans-serif;
+    overflow-x: hidden;
+    border: 10px solid red;
+    // &.overlay{
+    //     &::before{
+    //         content: "";
+    //         display: block;
+    //         width: 100vw;
+    //         height: 100vh;
+    //         background-color: rgba(0, 0, 0, 0.3);
+    //         position: fixed;
+    //         top: 0;
+    //         left: 0;
+    //         z-index: 2;
+    //     }
+    // }
+}
+button,
+button:focus,
+button:focus-visible,
+input:focus-visible,
+.form-control:focus,
+select:focus-visible,
+.form-select:focus
+{
+    outline: 0!important;
+    box-shadow: none!important;
+}
