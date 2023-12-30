@@ -9,5 +9,7 @@ body {
   body nav .right-elements .nav-item .nav-link p {
     padding-left: 6px;
     padding-right: 0; }
+  body footer .nav-link {
+    padding: 10px 15px 10px 0px !important; }
 
 /*# sourceMappingURL=app-ltr.css.map */
