@@ -1,7 +1,7 @@
 body {
-  font-family: 'DM Sans',sans-serif;
+  font-family: "Changa", sans-serif;
   overflow-x: hidden;
-  border: 10px solid red; }
+  background-color: #2e2e2e; }
 
 button,
 button:focus,
@@ -12,5 +12,53 @@ select:focus-visible,
 .form-select:focus {
   outline: 0 !important;
   box-shadow: none !important; }
+
+nav {
+  background: rgba(73, 73, 73, 0.5);
+  backdrop-filter: blur(7px); }
+  @media (min-width: 992px) {
+    nav .logo {
+      width: 35%; } }
+  nav .navbar-nav .nav-item {
+    position: relative; }
+    nav .navbar-nav .nav-item .nav-link {
+      color: #979797 !important;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 16px; }
+    nav .navbar-nav .nav-item.active .nav-link {
+      color: #fff !important; }
+    nav .navbar-nav .nav-item.active::after {
+      content: "";
+      width: 33px;
+      height: 2px;
+      border-radius: 6px;
+      background-color: #a27f45;
+      position: absolute;
+      bottom: 0px;
+      right: 9px; }
+      @media (max-width: 992px) {
+        nav .navbar-nav .nav-item.active::after {
+          right: 46%; } }
+  nav .right-elements .nav-item .nav-link span {
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 22px;
+    border: 1px solid #fff;
+    padding: 7px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0px 10px 20px 0px rgba(119, 126, 144, 0.1); }
+  nav .right-elements .nav-item .nav-link p {
+    padding-left: 6px;
+    font-size: 16px;
+    font-weight: 500; }
+  nav .right-elements .nav-item .nav-link.dropdown-toggle::after {
+    display: none !important; }
 
 /*# sourceMappingURL=app.css.map */

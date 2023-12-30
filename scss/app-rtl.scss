@@ -1,0 +1,29 @@
+body {
+  direction: rtl;
+  text-align: right;
+  //   Header rtl
+  nav {
+    .navbar-nav {
+      .nav-item {
+        &.active {
+          &::after {
+            left: 9px;
+            @media (max-width: 992px) {
+              left: 46%;
+            }
+          }
+        }
+      }
+    }
+    .right-elements {
+      .nav-item {
+        .nav-link {
+          p {
+            padding-right: 6px;
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+}

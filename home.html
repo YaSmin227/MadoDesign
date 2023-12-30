@@ -5,23 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mado</title>
     <!-- font awesome -->
-    <link rel="stylesheet" href=css/all.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/animate.css" />
     <!-- bootstrap 5 -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Styles -->
     <link rel="stylesheet" href="css/app.css" />
+    <!-- Style RTL -->
+    <link rel="stylesheet" href="css/app-rtl.css" />
     <!-- font family changa -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Changa:wght@800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    test<i class="fa-solid fa-house"></i>
+    <!--Start Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+      <div class="container justify-content-between">
+        <!-- Left elements -->
+        <div class="d-flex logo">
+          <!-- Logo -->
+          <a href="#">
+            <img src="./img/logo.png" alt="" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler navbar_toggle"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
 
+        <!-- Left elements -->
+
+        <!-- Center elements -->
+        <div
+          class="collapse navbar-collapse d-lg-flex justify-content-between"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav list-links">
+            <li class="nav-item me-3 me-lg-1 active">
+              <a class="nav-link" href="#"> الرئسية </a>
+            </li>
+            <li class="nav-item me-3 me-lg-1">
+              <a class="nav-link" href="#"> الاطباق </a>
+            </li>
+            <li class="nav-item me-3 me-lg-1">
+              <a class="nav-link" href="#"> الفروع </a>
+            </li>
+
+            <li class="nav-item me-3 me-lg-1">
+              <a class="nav-link" href="#"> المدونة </a>
+            </li>
+          </ul>
+          <!-- Right elements -->
+          <ul class="navbar-nav flex-row right-elements justify-content-center">
+            <!-- social Media -->
+            <li class="nav-item me-3 me-lg-1">
+              <a class="nav-link" href="#">
+                <span><i class="fa-brands fa-twitter"></i></span>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-1">
+              <a class="nav-link" href="#">
+                <span><i class="fa-brands fa-instagram"></i></span>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-1">
+              <a class="nav-link" href="#">
+                <span><i class="fa-brands fa-facebook"></i></span>
+              </a>
+            </li>
+            <!-- Toggle Language Buttons -->
+            <li class="nav-item me-3 me-lg-1">
+              <a class="nav-link" href="#">
+                <div class="d-flex justify-content-between align-items-center">
+                  <img src="./img/flag.svg" alt="" />
+                  <p class="mb-0 text-white">ع</p>
+                </div>
+              </a>
+              <!-- <a class="nav-link" href="#">
+                <div class="d-flex justify-content-between align-items-center">
+                  <img src="./img/flag.svg" alt="" />
+                  <p class="mb-0 text-white">En</p>
+                </div>
+              </a> -->
+            </li>
+            <!-- <li class="nav-item dropdown me-3 me-lg-1">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDarkDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div class="d-flex justify-content-between align-items-center">
+                  <img src="./img/flag.svg" alt="" />
+                  <p class="mb-0 text-white">ع</p>
+                </div>
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark"
+                aria-labelledby="navbarDarkDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">En</a></li>
+              </ul>
+            </li> -->
+            <!-- <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link" href="#">
+              
+            </a>
+          </li> -->
+          </ul>
+          <!-- Right elements -->
+        </div>
+
+        <!-- Center elements -->
+      </div>
+    </nav>
+
+    <!-- End Header -->
     <!-----------scripts------------>
     <script src="js/jquery.min.js"></script>
 
