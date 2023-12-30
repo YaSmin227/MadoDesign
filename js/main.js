@@ -4,10 +4,10 @@
 // toggle active class on header
 let menuBtn = document.querySelectorAll('.list-links .nav-item')
 menuBtn.forEach((li) => {
-    li.addEventListener("click", (e) => {
-        menuBtn.forEach((el) => el.classList.remove("active"));
-        li.classList.add("active");
-    });
+  li.addEventListener("click", (e) => {
+    menuBtn.forEach((el) => el.classList.remove("active"));
+    li.classList.add("active");
+  });
 });
 
 var wow = new WOW(
@@ -48,6 +48,53 @@ $('#gallaryCarousel').owlCarousel({
     },
     1440: {
       items: 4,
+      loop: false
+    }
+  }
+})
+$('#videosCarousel').owlCarousel({
+  loop: true,
+  margin: 32,
+  responsiveClass: true,
+  nav: false,
+  rtl: true,
+  stagePadding: 0,
+  stageMargin: 0,
+  dots: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    778: {
+      items: 1,
+    },
+    992: {
+      items: 2,
+    },
+    1440: {
+      items: 2,
+      loop: false
+    }
+  }
+})
+$('#testimonialsCarousel').owlCarousel({
+  loop: true,
+  margin: 32,
+  responsiveClass: true,
+  nav: false,
+  rtl: true,
+  stagePadding: 0,
+  stageMargin: 0,
+  dots: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    992: {
+      items: 2,
+    },
+    1440: {
+      items: 3,
       loop: false
     }
   }
