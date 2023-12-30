@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAK;EACH,SAAS,EAAE,GAAG;EACd,UAAU,EAAE,KAAK;EAMT,4CAAS;IACP,IAAI,EAAE,GAAG;IACT,yBAA0B;MAF5B,4CAAS;QAGL,IAAI,EAAE,GAAG;EASb,8CAAE;IACA,aAAa,EAAE,GAAG;IAClB,YAAY,EAAE,CAAC",
-"sources": ["../scss/app-rtl.scss"],
-"names": [],
-"file": "app-rtl.css"
-}

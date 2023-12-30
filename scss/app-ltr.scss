@@ -1,6 +1,6 @@
 body {
-  direction: rtl;
-  text-align: right;
+  direction: ltr;
+  text-align: left;
   //   Header rtl
   nav {
     .navbar-nav {
@@ -19,8 +19,8 @@ body {
       .nav-item {
         .nav-link {
           p {
-            padding-right: 6px;
-            padding-left: 0;
+            padding-left: 6px;
+            padding-right: 0;
           }
         }
       }
