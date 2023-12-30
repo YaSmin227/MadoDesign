@@ -5,7 +5,8 @@
 body {
   font-family: "Changa", sans-serif;
   color: #fff;
-  background-color: #2E2E2E; }
+  background-color: #2E2E2E;
+  position: relative; }
 
 button,
 button:focus,
@@ -19,7 +20,10 @@ select:focus-visible,
 
 nav {
   background: rgba(73, 73, 73, 0.5);
-  backdrop-filter: blur(7px); }
+  backdrop-filter: blur(7px);
+  position: fixed !important;
+  width: 100%;
+  z-index: 1000; }
   @media (min-width: 992px) {
     nav .logo {
       width: 35%; } }
@@ -66,7 +70,8 @@ nav {
     display: none !important; }
 
 .app {
-  background-color: #2E2E2E; }
+  background-color: #2E2E2E;
+  padding-top: 100px; }
   .app .banner {
     width: 100%;
     height: 517px;
