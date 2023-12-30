@@ -8,4 +8,57 @@
 @import "layout/header";
 @import "layout/footer";
 
+@import "resturantDetails";
 
+.main-title {
+  color: #FFF;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.main-paragraph {
+  color: #FFF;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.17px;
+}
+
+.main-btn {
+  display: flex;
+  padding: 18px 17px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  background: $main-color;
+  color: #FFF;
+  transition: 0.3s;
+
+  &:hover {
+    color: #FFF;
+    box-shadow: 2px 2px 10px #A27F4575;
+  }
+
+  &.number {
+    direction: ltr;
+  }
+}
+
+.owl-theme {
+  .owl-dots {
+    .owl-dot.active {
+      span {
+        transition: 0.5s;
+        background: #869791;
+        width: 35px;
+        height: 11px;
+        background: $main-color;
+      }
+    }
+  }
+}

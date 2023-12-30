@@ -1,7 +1,13 @@
-body{
-    font-family: 'DM Sans',sans-serif;
-    overflow-x: hidden;
-    border: 10px solid red;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-family;
+    color: #fff;
+    // overflow-x: hidden;
+    // border: 10px solid red;
     // &.overlay{
     //     &::before{
     //         content: "";
@@ -16,14 +22,14 @@ body{
     //     }
     // }
 }
+
 button,
 button:focus,
 button:focus-visible,
 input:focus-visible,
 .form-control:focus,
 select:focus-visible,
-.form-select:focus
-{
-    outline: 0!important;
-    box-shadow: none!important;
+.form-select:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
 }
