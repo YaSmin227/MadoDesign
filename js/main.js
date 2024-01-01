@@ -100,3 +100,21 @@ $('#testimonialsCarousel').owlCarousel({
   }
 })
 
+//Owl Carousel
+$(".all-banner-slide").owlCarousel({
+  items: 1,
+  smartSpeed: 1000,
+  autoplay: true,
+  lazyLoad: true,
+  dots: false,
+  autoplayTimeout: 3000
+});
+
+
+// toggle language
+$('.language').on('click', function () {
+  console.log('test');
+  $(this).addClass('d-none')
+  $(this).siblings().removeClass('d-none')
+})
+

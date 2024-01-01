@@ -7,7 +7,10 @@
 @import "layout/header";
 @import "layout/footer";
 
-@import "resturantDetails";
+@import "pages/home";
+@import "pages/resturantDetails";
+@import "pages/blog";
+@import "pages/foodTypes";
 
 .main-title {
   color: #fff;

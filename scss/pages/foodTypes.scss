@@ -1,0 +1,32 @@
+.app.food-app {
+  padding-top: 0px;
+  .food-banner {
+    background: 
+      url("../imgs/pexels-volkan-vardar-3887985 1.png");
+    background-attachment:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    height: 500px;
+    text-align: center;
+    h1{
+      font-size: 70px !important;
+    }
+    p{
+      font-size: 24px !important;
+      width: 37%;
+      margin: auto;
+    }
+    @media(max-width:768px){
+      padding-top: 170px;
+      h1{
+        font-size: 35px !important; 
+      }
+      p{
+        font-size: 20px !important;
+        width: 70%;
+      }
+    }
+  }
+}
